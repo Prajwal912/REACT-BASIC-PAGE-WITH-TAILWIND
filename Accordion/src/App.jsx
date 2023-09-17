@@ -16,10 +16,10 @@ const App = () => {
         <Sidebar>
           <Routes>
             <Route path="/" element={<Dashboard />} />
-            <Route path="/user" element={<User />} />
-            <Route path="/message" element={<Message />} />
+            <Route path="/users" element={<User />} />
+            <Route path="/messages" element={<Message />} />
             <Route path="/analytics" element={<Analytics />} />
-            <Route path="/filemanager" element={<FileManager />} />
+            <Route path="/file-manager" element={<FileManager />} />
             <Route path="/order" element={<Order />} />
             <Route path="/saved" element={<Saved />} />
             <Route path="/settings" element={<Settings />} />
