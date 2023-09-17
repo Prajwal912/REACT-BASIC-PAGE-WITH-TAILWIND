@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .sidebar {
+    background-color: rgb(2, 5, 28);
+    color: white;
+    height: 100vh;
+  }
+  
