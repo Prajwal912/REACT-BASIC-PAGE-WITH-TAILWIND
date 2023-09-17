@@ -49,6 +49,10 @@ a {
   color: white;
 }
 
+.icon{
+margin-top:6px;
+}
+
 .routes {
   margin-top: 15px;
   display: flex;
@@ -92,11 +96,10 @@ a {
 }
 .menu_container {
   display: flex;
-  /* flex-direction: column; */
 }
 .menu_container .link {
   padding-left: 20px;
-  border-bottom: #fff 0.5px solid;
+  /* border-bottom: #fff 0.5px solid; */
 }
 .title {
   font-size: 30px;
@@ -104,3 +107,4 @@ a {
 main {
   padding: 20px;
 }
+

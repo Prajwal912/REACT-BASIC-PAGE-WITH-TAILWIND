@@ -128,7 +128,11 @@ const Sidebar = ({ children }) => {
   return (
     <div className="menu_container">
       <motion.div
-        animate={{ width: isOpen ? "200px" : "45px" }}
+        animate={{ width: isOpen ? "200px" : "55px", transition:{
+          duration:0.5,
+          type:'spring',
+          damping:11,
+        } }}
         className="sidebar"
       >
         <div className="top--section">
@@ -169,7 +173,12 @@ const Sidebar = ({ children }) => {
 
         <section className="routes">
           {routes.map((route) => (
-            <NavLink activeClassName="active" to={route.path} key={route.name} className="link">
+            <NavLink
+              activeClassName="active"
+              to={route.path}
+              key={route.name}
+              className="link"
+            >
               <div className="icon">{route.icon}</div>
               <AnimatePresence>
                 {isOpen && (
