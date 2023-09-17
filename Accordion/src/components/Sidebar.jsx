@@ -100,7 +100,7 @@ const Sidebar = ({ children }) => {
       },
     },
     show: {
-      width: "150px",
+      width: "140px",
       padding: "5px 15px",
       opacity: 1,
       transition: {
